@@ -3,6 +3,7 @@ lazy val akkaVersion    = "$akka_version$"
 
 lazy val root = (project in file(".")).
   settings(
+	name := "MyFirstProject",
     inThisBuild(List(
       organization    := "$organization$",
       scalaVersion    := "$scala_version$"
